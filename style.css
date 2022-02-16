@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    text-decoration-color: none;   
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to left, #006644, #005733, #0B6E3B);
+    position: relative;
+    filter: blur(0px);
+}
+
+#fotoPerfil {
+    border-radius: 600px;
+    max-width: 300px;
+    margin-top: 200px;
+    box-shadow: 2px 2px 3px 2px black;
+
+}
+
+#conteudoPrincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#conteudoPrincipalEscrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#TituloDoCV {
+    font-family: 'Righteous' cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+#subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+#botaoPrincipal {
+    background-color: #ecd6c4;
+    width: 185px;
+    height: 67px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 3px 2px #0B6BBF;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #0B6BBF;
+    
+}
+
+#conteudoSecundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 60px;
+}
+
+#tituloSecundario {
+    border-top: 1px solid #fff2e7;
+    padding-top: 50px;
+    font-family: 'Righteous' cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+    margin-bottom: 16px;
+}
+
+.paragrafosSecundarios {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ecd6c4;
+}
+
+
