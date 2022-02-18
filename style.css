@@ -46,6 +46,7 @@ main {
     flex-wrap: wrap;
     height: 450px;
     margin-top: 200px;
+    z-index: 1;
 }
 
 #conteudoPrincipal {
@@ -67,6 +68,7 @@ main {
     margin-top: 100px;
     align-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 #TituloDoCV {
