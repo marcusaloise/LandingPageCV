@@ -13,11 +13,33 @@ a, a:visited, a:hover, a:active {
     color: #0B6BBF;
 }
 
+
+
 body {
     font-size: 100%;
     background-image: linear-gradient(to left, #172A5C, #172A73, #1E3282);
     position: relative;
     filter: blur(0px);
+}
+
+main {
+    position: relative;
+}
+
+.ondas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.onda1 {
+    animation: moveOnda1 3s ease-in-out infinite alternate;
+}
+@keyframes moveOnda1 {
+    from {
+        transform: translateX(-20px);
+    }
 }
 
 #fotoPerfil {
@@ -32,6 +54,9 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-top: -60px;
+    position: relative;
+
 }
 
 #conteudoPrincipalEscrito {
@@ -40,6 +65,8 @@ body {
     flex-direction: column;
     gap: 32px;
     margin-top: 100px;
+    align-content: center;
+    align-items: center;
 }
 
 #TituloDoCV {
@@ -66,9 +93,13 @@ body {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #0B6BBF;
     
 }
+
+#botaoPrincipal:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+    transition: all 0.3s ease-in;
+  }
 
 .conteudoSecundario {
     display: flex;
@@ -77,6 +108,7 @@ body {
     align-items: center;
     gap: 24px;
     margin-top: 60px;
+    margin-bottom: 60px;
     justify-content: space-around;
     
 }
@@ -126,3 +158,5 @@ body {
     
 
 }
+
+
