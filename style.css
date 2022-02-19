@@ -13,8 +13,6 @@ a, a:visited, a:hover, a:active {
     color: #0B6BBF;
 }
 
-
-
 body {
     background-color: #00B3B1;
     font-size: 100%;
@@ -27,47 +25,26 @@ main {
     position: relative;
 }
 
-.ondas {
-    position: absolute;
-    bottom: 0;
-    left: -10;
-    width: 120%;
-}
-
-.onda1 {
-
-    animation: moveOnda1 3.5s ease-in-out infinite alternate;
-}
-@keyframes moveOnda1 {
-    from {
-        transform: translateX(-30px);
-    }
-}
-
-.onda2 {
-
-    animation: moveOnda2 3s ease-in-out infinite alternate;
-}
-@keyframes moveOnda2 {
-    from {
-        transform: translateX(-40px);
-    }
-}
-.onda3 {
-
-    animation: moveOnda3 4s ease-in-out infinite alternate;
-}
-@keyframes moveOnda3 {
-    from {
-        transform: translateX(-60px);
-    }
-}
 #fotoPerfil {
     flex-wrap: wrap;
     height: 450px;
     margin-top: 200px;
     z-index: 1;
     
+}
+
+#TituloDoCV {
+    font-family: 'Righteous' cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+#subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
 }
 
 #conteudoPrincipal {
@@ -94,20 +71,6 @@ main {
     z-index: 1;
 }
 
-#TituloDoCV {
-    font-family: 'Righteous' cursive;
-    font-weight: 400;
-    font-size: 64px;
-    color: #fff2e7;
-}
-
-#subtitulo {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #ecd6c4;
-}
-
 #botaoPrincipal {
     background-color: #ecd6c4;
     width: 185px;
@@ -125,6 +88,57 @@ main {
     box-shadow: 0 0 40px 40px #e74c3c inset;
     transition: all 0.3s ease-in;
   }
+
+
+.ondas {
+    position: absolute;
+    bottom: 0;
+    left: -10;
+    width: 120%;
+}
+
+.onda1 {
+
+    animation: moveOnda1 3.5s ease-in-out infinite alternate;
+}
+
+@keyframes moveOnda1 {
+    from {
+        transform: translateX(-30px);
+    }
+}
+
+.onda2 {
+
+    animation: moveOnda2 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveOnda2 {
+    from {
+        transform: translateX(-40px);
+    }
+}
+
+.onda3 {
+
+    animation: moveOnda3 4s ease-in-out infinite alternate;
+}
+
+@keyframes moveOnda3 {
+    from {
+        transform: translateX(-60px);
+    }
+}
+
+#barra {
+
+    font-family: 'Righteous' cursive;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff2e7;
+    
+
+}
 
 .conteudoSecundario {
     display: flex;
@@ -154,7 +168,6 @@ main {
     margin-top: 60px;
 }
 
-
 #tituloSecundario {
     border-top: 1px solid #fff2e7;
     padding-top: 50px;
@@ -174,14 +187,5 @@ main {
 }
 
 
-#tituloSobre {
-
-    font-family: 'Righteous' cursive;
-    font-weight: 400;
-    font-size: 16px;
-    color: #fff2e7;
-    
-
-}
 
 
