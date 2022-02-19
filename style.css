@@ -16,8 +16,9 @@ a, a:visited, a:hover, a:active {
 
 
 body {
+    background-color: #00B3B1;
     font-size: 100%;
-    background-image: linear-gradient(to left, #172A5C, #172A73, #1E3282);
+    /* background-image: linear-gradient(to left, #172A5C, #172A73, #1E3282); */
     position: relative;
     filter: blur(0px);
 }
@@ -29,24 +30,44 @@ main {
 .ondas {
     position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: -10;
+    width: 120%;
 }
 
 .onda1 {
-    animation: moveOnda1 3s ease-in-out infinite alternate;
+
+    animation: moveOnda1 3.5s ease-in-out infinite alternate;
 }
 @keyframes moveOnda1 {
     from {
-        transform: translateX(-20px);
+        transform: translateX(-30px);
     }
 }
 
+.onda2 {
+
+    animation: moveOnda2 3s ease-in-out infinite alternate;
+}
+@keyframes moveOnda2 {
+    from {
+        transform: translateX(-40px);
+    }
+}
+.onda3 {
+
+    animation: moveOnda3 4s ease-in-out infinite alternate;
+}
+@keyframes moveOnda3 {
+    from {
+        transform: translateX(-60px);
+    }
+}
 #fotoPerfil {
     flex-wrap: wrap;
     height: 450px;
     margin-top: 200px;
     z-index: 1;
+    
 }
 
 #conteudoPrincipal {
@@ -57,6 +78,8 @@ main {
     justify-content: space-around;
     margin-top: -60px;
     position: relative;
+    background-image: linear-gradient(to left, #172A5C, #172A73, #1E3282);
+
 
 }
 
