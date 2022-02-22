@@ -10,7 +10,12 @@
 a{
     text-decoration: none;
     text-decoration-color: none;   
-    color: #0B6BBF;
+    color: 0B6BBF;
+}
+a:hover{
+    color: #ecd6c4;
+    transition: all 0.5s ease-in;
+    
 }
 
 
@@ -28,15 +33,19 @@ body {
     
 }
 
+
+
 main {
     position: relative;
 }
 
 #fotoPerfil {
     flex-wrap: wrap;
-    height: 450px;
+    height: 350px;
     margin-top: 200px;
     z-index: 1;
+    border-radius: 800px;
+    box-shadow: 1px 1px 1px 1px black;
     
 }
 
@@ -92,7 +101,7 @@ main {
 }
 
 #botaoPrincipal:hover {
-    box-shadow: 0 0 10px 10px #172A5C ;
+    box-shadow: 0 0 3px 3px #172A5C ;
     transition: all 0.5s ease-in;
     background-color: #172A5C;
   }
